@@ -1,8 +1,16 @@
-
-import './App.css'
+import './App.css';
+import ThemeToggle from "./ThemeToggle";
+import SearchForm from "./SearchForm";
+import Gallery from "./Gallery";
 
 function App() {
- <h1>Unsplash Images Starter</h1>;
+    return (
+        <main>
+            <ThemeToggle />
+            <SearchForm />
+            <Gallery />
+     </main>
+ )
   
 }
 
